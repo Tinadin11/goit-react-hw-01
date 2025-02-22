@@ -1,17 +1,14 @@
-
-
 .list {
     display: flex;
     flex-direction: column;
     border: 2px solid #260774;
     width: 100%;
-    padding: 20px; 
-
     text-align: center;
     font-size: 24px;
     border-radius: 10px;
     overflow: hidden;
     background-color: #e9ecf3;
+    padding: 20px; 
     margin: 0 auto;
     transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
@@ -47,3 +44,5 @@
   .status.offline {
     color: #a5190d;
   }
+
+  

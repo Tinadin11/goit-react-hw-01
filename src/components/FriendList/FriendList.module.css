@@ -1,7 +1,16 @@
-
   .friendListist {
     display: flex;
     flex-direction: row;
     gap: 16px; 
-    margin: 40px 0;
+    margin: 0 auto;
   }
+
+  @media screen and (max-width: 767px) {
+    .friendListist {
+      display: flex;
+  flex-wrap: wrap;
+  max-width: 250px;
+  align-items: center;
+    }
+  }
+ 

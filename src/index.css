@@ -35,7 +35,10 @@ img {
 }
 
 #root {background: #ada6c6;
-  padding: 80px 40px;
+  padding: 14px
+
 }
 
-
+@media screen and (min-width: 1024px) {
+  #root {
+    padding: 20px 80px;}}
