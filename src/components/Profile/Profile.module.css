@@ -21,7 +21,10 @@
     margin: 0 auto;
     box-shadow: 4px 6px 6px 2px rgba(88, 87, 92, 0.25);
     margin-bottom: 16px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   }
+
+  .avatar:hover { transform: scale(1.2);}
   
   .name {font-weight: 600;}
   .tag {font-style: italic;

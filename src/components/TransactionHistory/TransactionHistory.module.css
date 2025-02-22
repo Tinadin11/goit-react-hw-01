@@ -1,0 +1,37 @@
+
+.tableTransaction {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse; 
+    font-size: 20px;
+  }
+  
+  .tableTitle {
+    background-color: #272575; 
+    color: white;
+  }
+  
+  .tableTitle th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .tableBody td {
+    padding: 10px;
+    border: 1px solid #c7c5c5;
+    text-transform: capitalize;
+  }
+  
+  /* зміна кольору рядків  */
+  .tableBody tr:nth-child(odd) {
+    background-color: #f9f9f9; 
+  }
+  
+  .tableBody tr:nth-child(even) {
+    background-color: #e9ecf3; 
+  }
+  
+ 
+  .tableBody tr:hover {
+    background-color: #c1cce7; 
+  }
